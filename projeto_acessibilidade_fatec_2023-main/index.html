@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Acessibilidade</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body class="center">
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+
+    <header id="header" class="center">
+        <div id="headerLogo">
+            
+        </div>
+        <nav id="headerNav" >
+            <ol class="center">
+                <li><a href="#sobreMim">SOBRE MIM</a></li>
+                <li><a href="#formacao">FORMAÇÃO</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section id="minhasInformacoes" class="center">
+            <div id="infoText" class="center">
+                <h1>GUSTAVO DOMINGUES DA SILVA</h1>
+                <p id="Dev">DESENVOLVEDOR MOBILE</p>
+                <p id="cargo">ESTUDANTE DO 4° SEMESTRE DE SISTEMAS PARA INTERNET</p>
+            </div>
+            <div id="foto">
+                <img src="./icon/Design sem nome.png" alt="">                  
+            </div>
+        </section>
+        <section id="sobreMim" class="center">
+            <div id="sobreMimH2" class="center"><h2>SOBRE MIM</h2></div>
+            <div id="sobreMimInfo" class="center">
+                <P>Gosto de aprender coisas novas, me interesso por desenvolvimento mobile, amigavel e sociavel.
+                </P>
+            </div>
+        </section>
+        <section id="formacao" class="center">
+            <div id="formacaoH2" class="center"><h2>FORMAÇÕES</h2></div>
+            <div id="formacaoInfo" class="center">
+                <div id="fatecSI" class="center  formW">
+                    <p>FATEC - TAQUARITINGA</p>
+                    <p>SISTEMAS P/ INTERNET</p>
+                    <p>08/02/2022 -- 12/2024</p>
+                    <p>CURSANDO</p>
+                </div>
+                <div id="etecDS" class="center  formW">
+                    <p>ETEC - MATÃO</p>
+                    <p>SISTEMAS PARA INTERNET</p>
+                    <p>08/02/2019 -- 30/11/2021</p>
+                    <p>COMPLETO</p>
+                </div>
+                <div id="etecInfo" class="center  formW">
+                    <p>INGLÊS AVANÇADO</p>
+                    <p>REAL LIFE INGLISH CENTER</p>
+                    <p>08/05/2022 -- ATUALMENTE</p>
+                    <p>CURSANDO</p>
+                </div>
+                <div id="medio" class="center  formW">
+                    <p>ANGLO MATÃO</p>
+                    <p>FUNDAMENTAL 2</p>
+                    <p>08/02/2014 -- 30/12/2020</p>
+                    <p>COMPLETO</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="center">
+        <div id="footerLogo">
+            <img src="./icon/Design sem nome.png" alt="">  
+        </div>
+        <div id="infoFooter">
+            <nav class="center">
+                <div id="visite">
+                    <h3>VISITE</h3>
+                    <ol>
+                        <li>SOBRE MIM</li>
+                        <li>FORMAÇÕES</li>
+                    </ol>
+                </div>
+                <div id="contatos">
+                    <h3>CONTATOS</h3>
+                    <ol>
+                        <li><a href="mailto:lelopes236@gmail.com">contato.gustavo.silva02@gmail.com</a></li>
+                        <li><a href="tel:34991111024">(16) 996278054</a></li>
+                    </ol>
+                </div>
+                <div id="redes">
+                    <h3>REDES SOCIAIS</h3>
+                    <ol>
+                        <li>insta</li>
+                        <li>github</li>
+                        <li>linkedin</li>
+                    </ol>
+                </div>
+            </nav>
+        </div>
+    </footer>
+</body>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget({
+      rootPah: '/app',
+      personalization: 'https://vlibras.gov.br/config/default_logo.json',
+      opacity: 0.5,
+      position: 'R',
+      avatar: 'random',
+  });
+</script>
+</html>
